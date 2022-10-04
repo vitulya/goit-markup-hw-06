@@ -687,12 +687,18 @@ margin-bottom: 30px;
     transition: border var(--transition-dur-and-fun);
 }
 
+.modal-input:hover {
+    outline: none;
+    border: 1px solid var(--accent-color);
+
+    cursor: pointer;
+}
 
 .modal-input:focus{
     outline: none;
     border: 1px solid var(--accent-color);
 
-    cursor: pointer;
+    cursor: text;
 }
 
 .modal-icon{
@@ -727,12 +733,19 @@ margin-bottom: 30px;
     transition: border var(--transition-dur-and-fun);
 }
 
+.modal-textarea:hover {
+    outline: none;
+    border: 1px solid var(--accent-color);
+
+    cursor: pointer;
+}
+
 
 .modal-textarea:focus{
     outline: none;
     border: 1px solid var(--accent-color);
 
-    cursor: pointer;
+    cursor: text;
 }
 
 .modal-textarea::placeholder{
